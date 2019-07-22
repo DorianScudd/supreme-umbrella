@@ -1,3 +1,6 @@
+# Force TLS 1.2
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;
+
 # Get Authorization Token
 $user = '<client_id>'
 $pass = '<client_secret>'
